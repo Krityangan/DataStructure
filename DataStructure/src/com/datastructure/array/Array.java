@@ -161,6 +161,15 @@ public class Array <T> implements Iterable<T> {
 				 
 			}
 			
+				
+				Iterator<Object> itr=arr.iterator();
+				while(itr.hasNext())
+				{
+					Object object=itr.next();
+					System.out.print(object + "\t");
+					
+				}
+			
 		}
 		
 	}
